@@ -184,7 +184,7 @@ body {
 /* ================== Hero Section ================== */
 .hero-section {
   position: relative;
-  min-height: 85vh;
+  min-height: 75vh;
   padding: clamp(3rem, 8vw, 6rem) 0;
   display: flex;
   align-items: center;
@@ -197,6 +197,7 @@ body {
 .hero-container {
   position: relative;
   z-index: 10;
+  margin-top: -95px;
 }
 
 .hero-content {
@@ -604,7 +605,7 @@ body {
 
   .mobile-features-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: rgba(6, 18, 16, 0.5);
     padding: 1.5rem 1rem;
@@ -701,7 +702,7 @@ body {
 
   .mobile-highlight-card {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.25rem;
     background-color: rgba(10, 27, 24, 0.6);
     border: 1px solid rgba(77, 243, 156, 0.15);
@@ -780,7 +781,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3rem;
 }
 
 .section-badge-center {
@@ -830,8 +830,8 @@ body {
 .learn-card-d {
   background-color: rgba(10, 27, 24, 0.6);
   border: 1px solid rgba(77, 243, 156, 0.15);
-  padding: 2rem;
-  border-radius: 16px;
+  padding: 1.25rem;
+  border-radius: 12px;
   position: relative;
   transition: transform 0.3s ease;
 }
@@ -851,28 +851,28 @@ body {
 }
 
 .card-icon {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background: radial-gradient(circle, rgba(77, 243, 156, 0.2) 0%, rgba(77, 243, 156, 0) 70%);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   border-radius: 50%;
 }
 
 .learn-card-d h3 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: #fff;
   line-height: 1.3;
 }
 
 .learn-card-d p {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: var(--color-text-muted);
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
 }
 
 .card-line {
@@ -892,7 +892,7 @@ body {
   }
 
   .learn-card-d {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 }
 
@@ -921,6 +921,7 @@ body {
     border-radius: 12px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0.75rem;
   }
 
@@ -1289,6 +1290,7 @@ body {
   border-radius: 16px;
   padding: 1.5rem;
   display: flex;
+  align-items: center;
   gap: 1.25rem;
   transition: transform 0.3s ease, border-color 0.3s ease;
 }
@@ -1423,7 +1425,7 @@ body {
   left: -5%;
   width: 110%;
   height: 3px;
-  background-color: #fff;
+  background-color: #fffcfc;
   transform: translateY(-50%) rotate(-5deg);
   opacity: 0.8;
 }
@@ -1495,7 +1497,7 @@ body {
 
 /* ================== Time Ticking Section ================== */
 .ticking-section {
-  padding: var(--section-padding) 0;
+  padding: 25px 0;
   position: relative;
   background-color: rgba(6, 18, 16, 0.6);
 }
@@ -1583,22 +1585,22 @@ body {
 .warning-card {
   background-color: rgba(10, 27, 24, 0.6);
   border: 1px solid rgba(77, 243, 156, 0.15);
-  border-radius: 12px;
-  padding: 1.5rem;
+  border-radius: 16px;
+  padding: 0.7rem;
   display: flex;
   align-items: center;
   gap: 1.25rem;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 .warning-card:hover {
-  transform: translateY(-2px);
-  border-color: rgba(255, 77, 77, 0.4);
+  transform: translateY(-3px);
+  border-color: rgba(77, 243, 156, 0.4);
 }
 
 .warning-icon {
   background: radial-gradient(circle, rgba(255, 77, 77, 0.15) 0%, rgba(255, 77, 77, 0) 70%);
-  border: 1px solid rgba(255, 77, 77, 0.1);
+  border: 1px solid rgba(77, 243, 156, 0.15);
   border-radius: 50%;
   width: 56px;
   height: 56px;
@@ -1618,19 +1620,6 @@ body {
 .warning-info p {
   color: var(--color-text-muted);
   font-size: 0.9rem;
-}
-
-/* Bottom Bar */
-.ticking-bottom-bar {
-  background-color: rgba(10, 27, 24, 0.6);
-  border: 1px solid rgba(77, 243, 156, 0.3);
-  border-radius: 16px;
-  padding: 1.5rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1.5rem;
 }
 
 .ticking-feature {
@@ -1736,7 +1725,7 @@ body {
   padding: 1rem 1.5rem 1rem 0;
   /* Added right padding equal to gap for seamless loop */
   width: max-content;
-  animation: scroll-marquee 24s linear infinite;
+  animation: scroll-marquee 52s linear infinite;
 }
 
 .testimonial-cards-wrapper:hover {
@@ -1848,7 +1837,7 @@ body {
 .marquee-content {
   display: flex;
   width: max-content;
-  animation: scroll-marquee 20s linear infinite;
+  animation: scroll-marquee 52s linear infinite;
   align-items: center;
 }
 
@@ -1923,17 +1912,7 @@ body {
   }
 
   .faq-left {
-    position: sticky;
-    top: 81px !important;
-    /* Force override of global 100px */
-    z-index: 10;
-    background-color: #061210;
-    margin-left: calc(-1 * var(--container-padding));
-    margin-right: calc(-1 * var(--container-padding));
-    padding: 1rem var(--container-padding) 1.5rem var(--container-padding);
-    margin-top: 0 !important;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
+    position: static;
   }
 
   .faq-left .section-title,
@@ -2311,7 +2290,7 @@ body {
 /* ================== Footer Section ================== */
 .site-footer {
   background-color: rgba(4, 12, 10, 0.75);
-  padding: 4rem 0 120px 0;
+  padding: 4rem 0;
   /* Increased bottom padding to clear sticky footer */
   border-top: 1px solid rgba(77, 243, 156, 0.1);
   margin-top: 0;
@@ -2488,6 +2467,7 @@ body {
 @media (max-width: 992px) {
   .footer-top {
     flex-wrap: wrap;
+    gap: 40px;
   }
 
   .footer-vertical-divider {
@@ -2496,7 +2476,7 @@ body {
 
   .footer-brand {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
 
   .footer-column {
@@ -2525,6 +2505,7 @@ body {
 
 /* ================== Sticky Footer Bar ================== */
 .sticky-footer-bar {
+  display: none;
   position: fixed;
   bottom: 0px;
   left: 50%;
@@ -2620,6 +2601,7 @@ body {
   }
 
   .sticky-footer-bar {
+    display: block;
     border-radius: 20px 20px 0 0;
     bottom: 0px;
     width: 100%;
@@ -2662,4 +2644,68 @@ body {
   .sticky-info.main-info {
     flex: 1;
   }
+}
+
+@media (max-width: 768px) {
+  body main section {
+    text-align: center;
+  }
+
+  body main section * {
+    text-align: center;
+  }
+
+  footer,
+  footer * {
+    text-align: left;
+  }
+
+  .bonus-value {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .faq-left,
+  .faq-item,
+  .faq-right,
+  .bonus-card,
+  .learn-card-m,
+  .learn-card-d,
+  .feature-card,
+  .testimonial-card {
+    position: static !important;
+    transform: none !important;
+    height: auto !important;
+    max-height: none !important;
+  }
+
+  .faq-item.active .faq-content {
+    display: block !important;
+    position: static !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .testimonial-cards-wrapper,
+  .marquee-content {
+    animation-duration: 90s !important;
+    /* Slow down marquee for readability */
+  }
+}
+
+/* Alternating Section Backgrounds */
+main>section:nth-of-type(odd):not(.hero-section) {
+  background-color: rgba(6, 18, 16, 0.6) !important;
+  background-image: none !important;
+}
+
+main>section:nth-of-type(even) {
+  background-color: var(--color-bg-dark) !important;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1.5px, transparent 1.5px) !important;
+  background-size: 24px 24px !important;
 }
