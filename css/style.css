@@ -2709,3 +2709,8 @@ main>section:nth-of-type(even) {
   background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1.5px, transparent 1.5px) !important;
   background-size: 24px 24px !important;
 }
+@media (max-width: 992px) {
+  .hero-title {
+    margin-top: 80px;
+  }
+}

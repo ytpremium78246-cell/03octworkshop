@@ -1,0 +1,844 @@
+# CountryEdu – Future of Jobs Workshop
+
+## Website Documentation
+
+### 1. Project Overview
+
+This website is a responsive promotional landing page for the **CountryEdu Future of Jobs Workshop**.
+
+The primary purpose of the website is to:
+
+* Explain how AI is changing careers and jobs.
+* Help visitors understand future career opportunities.
+* Present the workshop's learning outcomes.
+* Introduce the workshop mentor.
+* Highlight additional workshop benefits and bonuses.
+* Build trust through testimonials and mentor experience.
+* Encourage visitors to register for the workshop at **₹999/-**.
+* Provide important information through FAQs, policies, contact links, and the footer.
+
+---
+
+# 2. Technology & File Structure
+
+The HTML document uses:
+
+```text
+index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+└── img/
+    ├── logo-course.png
+    ├── mentor.png
+    ├── what you'll learn.png
+    ├── footer card img.png
+    └── students/
+        ├── Student images
+        └── Testimonial images
+```
+
+The page loads:
+
+* `./css/style.css` for styling
+* `./js/main.js` for JavaScript functionality
+* Google Fonts with **Inter**
+* Local images from the `img` directory
+
+The HTML also uses CSS custom properties such as `var(--color-primary)` for the site's visual system.
+
+---
+
+# 3. Website Structure
+
+The page follows this overall structure:
+
+```text
+Announcement Bar
+        ↓
+Navigation
+        ↓
+Hero Section
+        ↓
+About Workshop
+        ↓
+What You'll Learn
+        ↓
+Meet Your Mentor
+        ↓
+Exclusive Bonuses
+        ↓
+Registration / Value CTA
+        ↓
+Time & Urgency Section
+        ↓
+Testimonials
+        ↓
+FAQ
+        ↓
+Footer
+        ↓
+Sticky Registration Bar
+```
+
+---
+
+# 4. Announcement Bar
+
+The announcement bar appears at the top of the website.
+
+It communicates:
+
+* Placement & Internship Blueprint
+* Live Workshop at ₹999
+* Certificate Included
+* Job & Internship Opportunities
+* Limited Seats
+
+The announcement content is duplicated to create a seamless scrolling/marquee effect.
+
+### Purpose
+
+The announcement bar immediately communicates:
+
+**Workshop + Price + Benefits + Urgency**
+
+---
+
+# 5. Navigation Bar
+
+The navigation contains:
+
+* CountryEdu logo
+* Primary CTA button
+
+Current CTA:
+
+**Claim Now**
+
+The logo is loaded from:
+
+```text
+./img/logo-course.png
+```
+
+The navigation is intentionally minimal and focused on conversion rather than providing many navigation options.
+
+---
+
+# 6. Hero Section
+
+The hero is the primary conversion section.
+
+### Main Heading
+
+**The Future of Jobs**
+
+### Supporting Heading
+
+**Which Career Wins? AI, Career or You?**
+
+### Description
+
+The section explains that AI is reshaping careers and positions the workshop as a way to understand these changes and prepare for them.
+
+### Workshop Details
+
+The hero displays:
+
+**Date**
+
+* 03 Oct 2026
+
+**Time**
+
+* 5:00 PM IST
+
+**Format**
+
+* Live Workshop
+* Interactive Session
+
+### Hero CTA
+
+Primary CTA:
+
+**Claim Now**
+
+The hero also contains social proof showing:
+
+**Join 5000+ students & professionals already registered**
+
+---
+
+# 7. About Workshop Section
+
+Section ID:
+
+```html
+id="about"
+```
+
+The section explains why the workshop is relevant.
+
+### Main Message
+
+**Why This Workshop Matters Now?**
+
+The content focuses on:
+
+* Rapid changes in the world of work
+* AI-created opportunities
+* Changing/at-risk roles
+* Future-ready career decisions
+* Practical guidance rather than hype
+
+The section explicitly positions the workshop around practical guidance.
+
+### Key Benefits
+
+Four feature cards communicate:
+
+1. **Understand AI’s Impact on Jobs**
+2. **Explore Future Careers**
+3. **Learn from Real Examples**
+4. **Get Your Action Plan**
+
+Each card combines an icon, heading, and short description.
+
+---
+
+# 8. Mobile About Section
+
+A separate mobile-oriented version is included.
+
+It uses:
+
+* Centered section badge
+* Mobile-specific heading
+* Three compact feature blocks
+* Image/content card
+* “Why It Matters” highlight card
+
+The mobile content emphasizes:
+
+* Live expert session
+* Practical insights
+* Actionable career roadmap
+* AI trends
+* Career preparation
+
+This indicates that the site intentionally maintains different desktop and mobile presentations rather than simply shrinking the desktop layout.
+
+---
+
+# 9. What You'll Learn Section
+
+Section ID:
+
+```html
+id="learn"
+```
+
+Desktop heading:
+
+**More Than Just a Workshop**
+
+The desktop version contains a visual section alongside four learning cards.
+
+### Desktop Learning Points
+
+#### Understand the Big Picture
+
+See how AI is reshaping jobs and what it means for your future.
+
+#### Explore Real Opportunities
+
+Discover high-growth careers, in-demand skills, and thriving industries.
+
+#### Get Practical Guidance
+
+Learn strategies and tools to build a future-ready career.
+
+#### Leave with a Plan
+
+Leave with clarity, confidence, and a clear action plan.
+
+---
+
+# 10. Mobile Learning Content
+
+The mobile version expands the learning section into six learning areas:
+
+1. AI & Job Market Trends
+2. Future-Proof Career Paths
+3. Human Skills That Win
+4. Tools You Should Know
+5. Actionable Career Plan
+6. Live Q&A with Mentor
+
+The mobile section concludes with:
+
+**Stay Ahead Tomorrow.**
+
+---
+
+# 11. Mentor Section
+
+Section ID:
+
+```html
+id="mentor"
+```
+
+The mentor section introduces:
+
+**Abhishek Singh**
+
+Role:
+
+**Mentor • CountryEdu Pvt. Ltd.**
+
+The page identifies him as Founder & CEO of CountryEdu Private Limited and Abhishek & Company.
+
+### Mentor Statistics
+
+The current page displays:
+
+| Statistic          |    Value |
+| ------------------ | -------: |
+| LinkedIn Followers |      6K+ |
+| Clients Served     |     150+ |
+| Startups Mentored  |      10+ |
+| Experience         | 5+ Years |
+
+A dedicated mobile mentor layout is also included.
+
+---
+
+# 12. Exclusive Bonuses
+
+Section ID:
+
+```html
+id="bonus"
+```
+
+Heading:
+
+**Get More Than Just a Workshop**
+
+The bonus section contains four non-material benefits.
+
+### Bonus 1 — Mentor Guidance
+
+Provides guidance around:
+
+* Strengths
+* Career direction
+* Required skills
+
+### Bonus 2 — Practical Assignments
+
+Provides real-world assignments focused on:
+
+* Problem solving
+* Practical skills
+* Hands-on learning
+
+### Bonus 3 — Industry-Ready Skills
+
+Focuses on:
+
+* Technical skills
+* Professional skills
+* AI-era career preparation
+
+### Bonus 4 — Career & Interview Guidance
+
+Focuses on:
+
+* Interview preparation
+* Presenting skills
+* Career strategy
+* Career opportunities
+
+---
+
+# 13. Bonus Registration CTA
+
+The bonus section ends with a conversion banner.
+
+Current message:
+
+**Get the Guidance & Skills to Become Job-Ready**
+
+Supporting text:
+
+**Mentorship • Assignments • Industry Skills • Interview Preparation**
+
+CTA:
+
+**Join for ₹999/-**
+
+The banner also displays a limited-time message.
+
+### Purpose
+
+This CTA connects the bonuses directly with the registration price instead of presenting the benefits as physical products.
+
+---
+
+# 14. Time / Urgency Section
+
+Section ID:
+
+```html
+id="ticking"
+```
+
+Heading:
+
+**The Longer You Wait, The Behind You Fall**
+
+The section contains a registration countdown and four learning-oriented cards.
+
+### Countdown
+
+Current labels:
+
+* Hours
+* Minutes
+* Seconds
+
+The HTML provides IDs for JavaScript countdown functionality:
+
+```text
+#hours
+#mins
+#secs
+```
+
+### CTA
+
+**Claim Your Seat**
+
+---
+
+# 15. Career Learning Cards
+
+The urgency section currently reinforces the workshop's learning outcomes rather than describing external losses.
+
+### Discover Your Career Direction
+
+Identify your strengths, career path, and skills to develop.
+
+### Build Practical Skills
+
+Practice with real-world assignments and problem-solving tasks.
+
+### Become Industry-Ready
+
+Learn the technical and professional skills valued in the AI era.
+
+### Prepare for Interviews
+
+Build interview skills and learn how to present yourself effectively.
+
+This creates a clear connection between the urgency section and the actual workshop benefits.
+
+---
+
+# 16. Testimonials
+
+Section ID:
+
+```html
+id="testimonials"
+```
+
+Heading:
+
+**Real People. Real Progress.**
+
+The page contains testimonial cards with:
+
+* Quote
+* Five-star rating
+* Student name
+* Student profile image
+* Career/role
+
+The testimonial section is presented as feedback from workshop participants.
+
+Multiple testimonial cards are included in the HTML.
+
+---
+
+# 17. FAQ Section
+
+The page contains an FAQ section addressing common registration and workshop questions.
+
+Current questions include:
+
+* Who is this workshop for?
+* Will I get a certificate?
+* Is the workshop live or recorded?
+* How do I join the live session?
+* What if I can't attend live?
+* Is there a refund policy?
+* Do I need any prior knowledge about AI?
+
+The FAQ is important for reducing hesitation before registration.
+
+---
+
+# 18. Refund / Non-Attendance Information
+
+The current FAQ includes a question:
+
+**What if I can't attend live?**
+
+The intended policy should communicate that assignment access may be available when the participant provides **prior notice with a valid reason**.
+
+The site's refund policy is separately linked from the footer.
+
+---
+
+# 19. Footer
+
+The footer contains several navigation groups.
+
+### Quick Links
+
+* Home
+* Workshops
+* About Us
+* Events
+* Certifications
+
+### Contact Info
+
+* [query@countryedu.com](mailto:query@countryedu.com)
+* +91 87964 37557
+* New Delhi, India
+
+### Additional Links
+
+* Contact Us
+* Refund Policy
+* Career Nation
+
+---
+
+# 20. Footer Copyright
+
+The footer displays:
+
+**© 2026 countryedu. All rights reserved.**
+
+The footer also contains the message:
+
+**Clarity Today. A Brighter Tomorrow.**
+
+---
+
+# 21. Sticky Footer CTA
+
+A persistent sticky registration bar is included at the bottom of the website.
+
+It contains:
+
+### Workshop
+
+**The Future of Jobs Workshop**
+
+Supporting message:
+
+**Gain clarity. Make smarter career decisions.**
+
+### Date
+
+**03 Oct 2026**
+
+**Saturday 5:00 PM**
+
+### Availability
+
+**Limited Seats**
+
+**Don't miss out!**
+
+### CTA
+
+**Join the Workshop**
+
+This ensures that a registration CTA remains visible while the visitor scrolls.
+
+---
+
+# 22. Responsive Design
+
+The website has dedicated:
+
+* Desktop layouts
+* Mobile layouts
+* Responsive components
+* Mobile-specific content structures
+* Responsive navigation/CTA behavior
+* Sticky mobile/footer behavior
+
+Examples include separate classes such as:
+
+```text
+about-desktop
+about-mobile
+
+learn-desktop
+learn-mobile
+
+mentor-desktop
+mentor-mobile
+```
+
+This structure allows the page to provide different layouts and information density depending on screen size.
+
+---
+
+# 23. Visual Design System
+
+The website uses a dark, modern education/career aesthetic.
+
+Important CSS variables referenced throughout the HTML include:
+
+```css
+var(--color-primary)
+var(--color-text-muted)
+```
+
+The primary accent is consistently used for:
+
+* Icons
+* Highlights
+* Important text
+* CTA elements
+* Section accents
+
+The page uses **Inter** as its Google Font.
+
+---
+
+# 24. Icons
+
+The website primarily uses inline SVG icons.
+
+Icons are used for:
+
+* Calendar
+* Live session/video
+* AI/technology
+* Career direction
+* Documents
+* Mentorship
+* Business/startups
+* Time/countdown
+* Testimonials
+* Navigation arrows
+* Benefits
+
+This keeps the icon system lightweight without requiring a separate icon library.
+
+---
+
+# 25. Calls to Action
+
+The primary conversion action appears throughout the website using variations of:
+
+* Claim Now
+* Claim Your Seat
+* Join for ₹999/-
+* Join the Workshop
+* Register Now
+
+The CTA strategy is intentionally repeated across major sections so visitors can register without having to return to the top of the page.
+
+---
+
+# 26. JavaScript Functionality
+
+The HTML loads:
+
+```html
+<script src="./js/main.js"></script>
+```
+
+The page contains elements that appear intended for JavaScript functionality, particularly the countdown timer:
+
+```text
+hours
+mins
+secs
+```
+
+The exact JavaScript implementation is not contained in the uploaded HTML file, so its behavior cannot be documented beyond the elements exposed by the HTML.
+
+---
+
+# 27. External & Internal Resources
+
+### External
+
+* Google Fonts
+* CountryEdu external pages/domains
+* Career Nation domain
+* Certification domain
+
+### Local
+
+```text
+./css/style.css
+./js/main.js
+./img/logo-course.png
+./img/mentor.png
+./img/what you'll learn.png
+./img/footer card img.png
+./img/students/*
+```
+
+---
+
+# 28. Conversion Flow
+
+The intended visitor journey is:
+
+```text
+Announcement
+    ↓
+Understand Workshop
+    ↓
+See Date & Format
+    ↓
+Understand AI / Career Impact
+    ↓
+See What They Will Learn
+    ↓
+Meet Mentor
+    ↓
+See Additional Benefits
+    ↓
+See ₹999 Registration CTA
+    ↓
+Build Trust Through Testimonials
+    ↓
+Resolve Questions Through FAQ
+    ↓
+Register
+```
+
+The sticky footer provides an additional conversion path throughout the journey.
+
+---
+
+# 29. Content Positioning
+
+The website positions the workshop around four major outcomes:
+
+### 1. Career Clarity
+
+Understanding career direction in a changing job market.
+
+### 2. Practical Skills
+
+Learning through assignments and practical exercises.
+
+### 3. Industry Readiness
+
+Understanding technical and professional skills relevant to AI-era careers.
+
+### 4. Career Preparation
+
+Improving interview preparation and career planning.
+
+These four themes are repeated across the **Learn**, **Bonus**, and **Time Ticking** sections, creating consistency throughout the landing page.
+
+---
+
+# 30. Important Content Consistency Checks
+
+Before publishing, the following claims should be verified against the actual offering:
+
+* **“5000+ students & professionals already registered”**
+* **“100% Job & Internship Opportunities”**
+* **“Certificate Included”**
+* **“50% OFF”**
+* Mentor statistics such as **6K+, 150+, 10+, 5+ Years**
+* Testimonial claims and outcomes
+* Countdown/registration deadline
+
+These statements are currently present in the HTML, so they should accurately reflect the real workshop and current campaign.
+
+---
+
+# 31. Recommended Maintenance Areas
+
+For future edits, the main areas likely to require regular updates are:
+
+### Event Information
+
+* Date
+* Time
+* Registration status
+* Countdown
+
+### Pricing
+
+* ₹999/-
+* Discount messaging
+
+### Mentor
+
+* Name
+* Bio
+* Experience
+* Statistics
+* Image
+
+### Testimonials
+
+* Names
+* Roles
+* Quotes
+* Images
+
+### Bonuses
+
+* Benefit names
+* Descriptions
+* Eligibility
+
+### FAQ
+
+* Attendance policy
+* Assignment access
+* Refund policy
+* Certificate details
+* Session format
+
+### Footer
+
+* Contact information
+* Legal links
+* External links
+
+---
+
+# 32. Overall Site Architecture
+
+The website is structured as a **single-page conversion landing page** rather than a traditional multi-page website.
+
+Its architecture can be summarized as:
+
+**Attention → Problem Awareness → Learning Value → Mentor Authority → Bonuses → Urgency → Social Proof → FAQ → Conversion**
+
+This structure makes the page suitable for paid campaigns, direct registration traffic, and workshop promotion.
